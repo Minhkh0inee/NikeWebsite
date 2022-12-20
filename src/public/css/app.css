@@ -1,0 +1,48 @@
+h1 {
+  background-color: yellow;
+  color: green; }
+
+.card-img-top {
+  margin-top: 10px; }
+
+#contact {
+  width: 100%;
+  height: 290px;
+  background: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
+
+#contact p {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px; }
+
+#contact .button-two {
+  background-color: white;
+  color: #ccaa00;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: .4s; }
+
+#contact .button-two:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid wheat;
+  cursor: pointer; }
+
+#contact li {
+  color: white; }
+
+#footer {
+  padding-top: 100px;
+  background-color: black;
+  color: white; }
+
+#footer li {
+  color: white; }
