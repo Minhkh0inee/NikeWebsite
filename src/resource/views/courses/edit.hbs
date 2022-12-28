@@ -1,0 +1,48 @@
+<div class="mt-4">
+    <h3>Update a new shoes</h3>
+    <form class="mt-4" method="POST" action="/courses/{{course._id}}?_method=PUT">
+
+  <div class="form-group">
+    <label for="name">Name of product</label>
+    <input type="text" class="form-control" value="{{course.name}}" id="name" name="name" >
+    
+  </div>
+  <div class="form-group">
+    <label for="description">Description of product</label>
+    <input type="text" class="form-control" value="{{course.description}}" id="description" name="description" >
+    
+  </div>
+  <div class="form-group">
+    <label for="price">Price of product</label>
+    <input type="text" class="form-control" value="{{course.price}}" id="price" name="price" >
+    
+  </div>
+
+   <div class="form-group">
+    <label for="image">Main Image of the product</label>
+    <input type="text" class="form-control" value="{{course.image}}" id="image" name="image" >
+  </div>
+
+  <div class="form-group">
+    <label for="p1">Picture 1 of the product</label>
+    <input type="text" class="form-control" value="{{course.p1}}" id="p1" name="p1" >
+  </div>
+    <div class="form-group">
+    <label for="p2">Picture 2 of the product</label>
+    <input type="text" class="form-control" value="{{course.p2}}" id="p2" name="p2" >
+    
+  </div>
+    <div class="form-group">
+    <label for="p3">Picture 3 of the product</label>
+    <input type="text" class="form-control" value="{{course.p3}}" id="p3" name="p3" >
+    
+  </div>
+    <div class="form-group">
+    <label for="description">Title of product</label>
+    <textarea type="text" class="form-control" id="tilte" name="title" > {{course.tilte}}</textarea>
+    
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Save</button>
+</form>
+</div>

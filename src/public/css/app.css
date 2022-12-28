@@ -28,7 +28,7 @@ h1 {
   font-weight: bold;
   padding: 9px 22px;
   border-radius: 30px;
-  transition: .4s; }
+  transition: 0.4s; }
 
 #contact .button-two:hover {
   background-color: transparent;
@@ -46,3 +46,7 @@ h1 {
 
 #footer li {
   color: white; }
+
+.checkbox-select-all-options {
+  width: 150px;
+  margin: 0px 16px; }
